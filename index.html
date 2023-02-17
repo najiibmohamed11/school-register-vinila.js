@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school rag system</title>
+</head>
+<script>
+
+</script>
+
+   
+
+
+
+
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<body>
+   
+    <nav class="navbar navbar-ligt bg-light">
+        <div class="container-flueid">
+            <a href="#" class="navbar-brand mx-auto">school registration system</a>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <h3 class="text-center"><span class="bg-light bg-secondary">register</span>
+             new student</h3>
+             <h5 class=" bg-danger w-50 h-25 border rounded d-none " style="margin-left: 200px;" id="error">
+                fill the plank space</h5>
+        <form  id="book-form" class="w-75 mx-auto">
+            <div class="row mb3 mt-4">
+                
+                <label for="firstName" class="col-sm-2 col-form-label">first name</label>
+                <div class="col-sm-10">
+                    <input type="text" id="firstname" class="form-control">
+                </div>
+            </div>
+            <div class="row mb3">
+                <label for="laststName" class="col-sm-2 col-form-label">last name</label>
+                <div class="col-sm-10">
+                    <input type="text" id="lastname" class="form-control">
+                </div>
+            </div>
+            <div class="row mb3">
+                <label for="idNumber" class="col-sm-2 col-form-label">id number</label>
+                <div class="col-sm-10">
+                    <input type="text" id="idNumber" class="form-control">
+                </div>
+            </div>
+            <div class="row mb3">
+                <label for="classRoom" class="col-sm-2 col-form-label">class</label>
+                <div class="col-sm-10">
+                    <input type="text" id="classRoom" class="form-control">
+                </div>
+            </div>
+            <button type="submit" class="bg-primary w-100">register</button>
+        </form>
+        <hr>
+        <h3 class="text-secondary">
+            resualt of all students
+        </h3>
+        <table class="table">
+          <thead>
+            <tr>
+                <th scope="col">first name</th>
+                <th scope="col">last name</th>
+                
+                <th scope="col">id number</th>
+                <th scope="col">class</th>
+                <th scope="col"></th>
+              </tr>
+          </thead>
+          <tbody id="all-students">
+          
+
+          </tbody>
+
+        </table>
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+<!-- java script linking -->
+    <script src="app.js"></script>
+    <!-- <script src="js/jquery-3.0.0.slim.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+</body>
+</html>
